@@ -1,0 +1,194 @@
+@media (max-width: 720px) {
+  /* Awal Navbar */
+  .navbar {
+    width: 100%;
+    height: 70px;
+  }
+  .navbar img {
+    width: 190px;
+  }
+  .navbar ul li a {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .navbar li:hover {
+    background-color: #ededed;
+    border-bottom: 3px solid #333;
+  }
+  .enquire a {
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  .enquire a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+  }
+  .enquire ul li a {
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom: 3px solid #fff;
+    padding: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Awal Video Tron */
+  #video-tron .tour_name ul {
+    list-style: none;
+    padding: 70px 0 0 0;
+  }
+  #video-tron .tour_name a {
+    writing-mode: vertical-lr;
+    display: inline;
+    color: #333;
+    padding: 10px;
+    /* margin-left: 0; */
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: rotate(180deg);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #video-tron .tour_video video {
+    width: 100%;
+    background-size: contain;
+    max-height: max-content;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+  }
+  /* Akhir Video Tron */
+
+  /* Awal Content1 */
+  #Contain_1 .contain_p1 p {
+    width: 100%;
+    padding: 30px 0 0 40px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  #Contain_1 .contain_p2 h1 {
+    width: 100%;
+    padding: 0 0 0 40px;
+    font: 52px/48px "Times New Roman";
+    font-weight: bold;
+  }
+  #Contain_1 .contain_p2 h6 {
+    width: 310px;
+    padding: 30px 0 0 40px;
+    text-align: left;
+    font: 18px/24px "sans";
+    font-weight: normal;
+  }
+  #Contain_1 .contain_p2 h4 {
+    width: 80%;
+    padding: 10px 0 0 40px;
+    font-weight: lighter;
+    font: 28px/25px "Times New Roman";
+  }
+  #Contain_1 .bg {
+    background-color: #ececec;
+    width: 100%;
+    height: 550px;
+    margin-top: -540px;
+  }
+  /* Akhir Content 1 */
+
+  /* Awal Contain 2 */
+  #Contain_2 .contain_2 h6 {
+    margin: 90px 0 0 40px;
+    font-weight: normal;
+  }
+  #Contain_2 .contain_2 h1 {
+    font: 50px/48px "times new roman";
+    font-weight: bold;
+    margin: 0 0 0 40px;
+  }
+  #Contain_2 .contain_2 p {
+    margin: 5px 0 0 40px;
+    font-weight: normal;
+  }
+
+  #Contain_2 .legend {
+    padding: 70px 0 0 50px;
+    display: inline-block;
+  }
+  #Contain_2 .maps img {
+    padding: 30px 0 0 0;
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+  }
+  #Contain_2 .legend .icon {
+    border-radius: 50%;
+  }
+  #Contain_2 .legend .icon:hover {
+    border: 2px solid #fff;
+  }
+  #Contain_2 .lodges .icon {
+    background-color: goldenrod;
+    width: 20px;
+    height: 20px;
+  }
+  #Contain_2 .hotels .icon {
+    background-color: rgb(36, 147, 120);
+    width: 20px;
+    height: 20px;
+  }
+  #Contain_2 .residences .icon {
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+  }
+  /* Akhir Contain 2 */
+
+  /* Awal Properti-1 */
+  #Properti-1 .text-image {
+    margin-top: -250px;
+    text-align: center;
+  }
+  #Properti-1 .text-image a {
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+  }
+  #Properti-1 .Gambar img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding: 25px 25px;
+  }
+  #Properti-1 .text-image p {
+    color: #fff;
+    margin: auto;
+    font-weight: bold;
+    font: 18px/34px "times new roman";
+  }
+  #Properti-1 .text-image h4 {
+    color: #fff;
+    font: 28px/18px "times new roman";
+  }
+  #Properti-1 .btn {
+    color: #fff;
+    margin-top: 20px;
+  }
+  #Footer .Logo img {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 125px;
+  }
+  #Footer .sosmed i {
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  #Footer .policy ul {
+    margin-left: -57px;
+    list-style: none;
+  }
+  /* Akhir Properti-1 */
+}
