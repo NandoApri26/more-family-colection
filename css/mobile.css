@@ -146,6 +146,135 @@
   }
   /* Akhir Contain 2 */
 
+  /* ==== Awal Experiences ==== */
+  #Experiences .Judul-Experien {
+    margin: 0px 0px 0px 15px;
+    width: 50%;
+  }
+  #Experiences .Judul-Experien p {
+    margin: 0;
+    font: 14px/54px Poppins;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #666;
+  }
+  #Experiences .Judul-Experien h3 {
+    margin-top: -20px;
+    font: 42px/48px "Times New Roman";
+    font-weight: 550;
+    box-sizing: border-box;
+    display: block;
+    max-width: 70%;
+    width: 34.375rem;
+    color: #444;
+  }
+  #Experiences .Item .Experience-Gambar img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+  #Experiences .Experience-Text {
+    background-color: #fff;
+    margin-left: 50px;
+    max-height: 250px;
+    color: #666;
+    margin-top: -100px;
+  }
+  #Experiences .Experience-Text h3 {
+    margin-top: 50px;
+    font: 34px/32px "Times New Roman";
+    margin-left: 30px;
+    color: #000;
+  }
+  #Experiences .Experience-Text-Header {
+    font: 0.75rem/14px Raleway;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    margin-left: 30px;
+  }
+  #Experiences .Experience-Text-Isi {
+    font: 1.1em/24px Relaway;
+    margin-left: 30px;
+  }
+  #Experiences .fa-chevron-left,
+  .fa-chevron-right {
+    font-size: 30px;
+    color: #fff;
+  }
+  #Experiences .fa-chevron-left:hover,
+  .fa-chevron-right:hover {
+    color: rgb(237, 140, 5);
+  }
+  #Experiences .carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 8px;
+    background-color: #fff;
+    border-top: 240px solid transparent;
+    border-bottom: 240px solid transparent;
+  }
+  /* ==== Akhir Experiences ==== */
+
+  /* ==== Designed Especially Start */
+  #Designed-Expecially .container-fluid {
+    margin-top: 100px;
+  }
+  #Designed-Expecially .Heading-designed {
+    background-color: #262633;
+  }
+  #Designed-Expecially .pembungkus {
+    padding: 50px 10px;
+    color: #fff;
+    display: inline-block;
+  }
+  #Designed-Expecially .Heading-designed p {
+    font-family: raleway;
+    font-size: 12px;
+  }
+  #Designed-Expecially .Heading-designed h3 {
+    font-family: PlayfairDisplay-Bold, serif;
+    font-size: 37px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    font-weight: bold;
+  }
+  #Designed-Expecially .btn-outline-light {
+    border-radius: 0;
+    margin-top: 15px;
+    background-color: #262633;
+    font: 14px/24px raleway-semibold;
+    letter-spacing: 2px;
+  }
+  #Designed-Expecially .btn-outline-light:hover {
+    border-top: #fff;
+    border-right: #fff;
+    border-left: #fff;
+    color: #fff;
+  }
+  /* ==== Designed Especially End */
+
+  /* ==== More-Stories Start ==== */
+  #More-Stories .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  #More-Stories .card span {
+    font: 14px/24px Raleway;
+  }
+  #More-Stories .card h5 {
+    font: 24px/28px PlayfairDisplay-Bold;
+    font-weight: bold;
+  }
+  #More-Stories .card a {
+    font: 10px/24px Raleway;
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  /* ==== More-Stories End ==== */
+
   /* Awal Properti-1 */
   #Properti-1 .text-image {
     margin-top: -250px;
@@ -181,9 +310,9 @@
     margin-left: 125px;
   }
   #Footer .sosmed i {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    margin-left: 40px;
+    margin-left: 0;
     margin-top: 20px;
   }
   #Footer .policy ul {
